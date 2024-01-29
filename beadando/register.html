@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" >
+        <script src="jquery-3.3.1.min.js"></script>
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+        <div id="menu"  >
+            <img src="menu.png" alt="menu" id="menubutton" >
+            <ul id="links" >
+                <li><a href="home.html" >Kezdőlap</a></li>
+                <li><a href="benefits.html">Hatásai</a></li>
+                <li><a href="#" class="active">Regisztráció</a></li>
+                <li><a href="favourites.html">Kedvenc teáink</a></li>
+            </ul>
+        </div>
+        <div id="content" >
+            <br>
+            <p class="registrationinf" >
+                Már lehetséges a regisztráció a hamarosan megnyíló tea imádók webáruházunkhoz. Azzal, hogy előre regisztrál személyre szóló ajánlatokat kaphat tőlünk. 
+                Regisztráljon most, és ne maradjon le Magyarország legjobb és legválasztékosabb teaboltjának nyitásáról! 
+            </p>
+            <form class="registration">
+                <table class="registrationtable">
+                    <tr>
+                        <td class="left">
+                            Vezetéknév:
+                        </td>
+                        <td>
+                            <input type="text" id="formLastName" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">
+                            Keresztnév:
+                        </td>
+                        <td>
+                            <input type="text" id="formFirstName" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">
+                            Email:
+                        </td>
+                        <td>
+                            <input type="text" id="formEmail" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">
+                            Jelszó:
+                        </td>
+                        <td>
+                            <input type="password" id="formPassword" />
+                        </td>
+                    </tr>
+                </table>
+                <div id="conditionsDiv"><input type="checkbox" name="condition" id="conditions" > Elfogadja az adatvédelmi irányelveket.</div>
+                <br>
+                <input type="checkbox" name="offers"> Hozzájárul ahoz, hogy személyre szóló ajánlatokat kapjon Emailben.
+                <input type="button" id="validate" value="Regisztráció" >
+                <br>
+                <div id="results"></div>
+            </form>
+        </div>
+        
+    </body>
+</html>

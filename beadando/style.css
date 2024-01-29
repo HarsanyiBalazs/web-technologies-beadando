@@ -1,0 +1,153 @@
+body 
+{
+margin: 0;
+}
+
+#menu 
+{
+    width: 5%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    background-color: forestgreen;
+    margin: 0;
+    padding: 0;
+}
+
+figure
+{
+    
+    background-color: lawngreen;
+    width: 33%;
+    
+}
+
+figcaption
+{
+    width: 50%;
+    font-style: italic;
+}
+
+.row {
+    display: flex;
+    background-color: lawngreen;
+    
+  }
+
+#content
+{
+    height: 100%;
+    margin-left: 5%;
+    background-color: lawngreen;
+    overflow: auto;
+}
+
+#links
+{
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#menubutton
+{
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: green;
+    color:white;
+}
+
+li a.active
+{
+    background-color: lawngreen;
+}
+
+p {
+    font-size:26px
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pictures {
+    width:15%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.picture {
+    width: 45%;
+     
+}
+
+.registrationinf
+{
+    
+    position: fixed;
+    margin: 15% 50% 0% 5%; 
+    text-align: center;
+    
+}
+
+.registration
+{
+    margin-top: 10%;
+    margin-left:auto;
+    width: 40%;
+    
+}
+
+.registrationtable
+{
+    width:100%;
+}
+
+.registrationtable tr
+{
+    height: 60px;
+}
+
+.registrationtable input
+{
+    height:22px;
+    width: 300px;
+    border:1px solid white;
+    border-radius: 5px;
+}
+
+.left
+{
+    font-size:20px;
+    text-align: right;
+}
+
+#validate
+{
+    margin-top: 15px;
+    margin-left: 25%;
+    
+    width:300px;
+}
+
