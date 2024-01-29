@@ -1,1 +1,2 @@
-# web-technologies-beadando
+Harsányi Balázs
+HD9DOJ
